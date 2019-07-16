@@ -326,10 +326,6 @@ public class Operaciones {
             if (numero == 3) {
                 nuevaLiquidacion.comboCategoria.setModel(modeloCombo);
             }
-            if (numero == 4) {
-                listadosConceptos.comboCategoria.setModel(modeloCombo);
-            } else {
-            }
             con.desconectarBaseDeDatos();
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error en Cargar Categorias" + e.getMessage());
